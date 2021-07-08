@@ -1,0 +1,16 @@
+What happens when you change the NUM_DIGITS constant?
+  * the amount of digits you would have to guess
+What happens when you change the MAX_GUESSES constant?
+  * the amount of guesses you have
+What happens if you set NUM_DIGITS to a number larger than 10?
+  * There would be an error because the digits generated only have each number from 0-9 appearing once.
+What happens if you replace secretNum = getSecretNum() on line 30 with secretNum = '123'?
+  * Every single number that is "generated" is 123.
+What error message do you get if you delete or comment out numGuesses = 1 on line 34?
+  * Unbound local error because the variable numGusses will not exist
+What happens if you delete or comment out random.shuffle(numbers) on line 62?
+  * The numbers will no longer be shuffled so it will always be 012
+What happens if you delete or comment out if guess == secretNum: on line 74 and return 'You got it!' on line 75?
+  * The result will end with a triple Fermi instead of a "You Got it!" and it will proceed to ask if you want to play again
+What happens if you comment out numGuesses += 1 on line 44?
+  * Infinite guesses while the program will keep you on Guess #1.
